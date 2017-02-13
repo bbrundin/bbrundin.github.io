@@ -21,20 +21,23 @@ body {
 
 .footer {
   background-color: #eee;
+  text-align: center;
 }
 
 
 /* index page */
 
-.page-index {
+.page-index h3 {
+  color: blue;
+  font-variant-caps: all-petite-caps;
 }
 
 /* travel page */
 
-.page-travel {
+.page-travel li {
+  font-variant-caps: all-small-caps;
+  text-align: center;
 }
-
-
 
 
 .page-content {
@@ -57,7 +60,7 @@ h1 {
   margin: 20px;
   padding: 20px;
   padding: 60px;
-  background: url(images/bigsur.jpg);
+  background: url(images/hike.jpg);
 }
 
 #travel-main-head {
@@ -84,7 +87,10 @@ a:visited {
   color: red;
 }
 
-
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+}
 
 
 /*Padding and border added to at least one element*/
