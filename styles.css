@@ -1,3 +1,98 @@
 body {
-  background-color: pink;
+  background-color: #fff;
 }
+.page {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.page-index .page {
+  background-color: #fff;
+}
+
+.header {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 20px;
+  background-color: #ddd;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+
+/* index page */
+
+.page-index {
+}
+
+/* travel page */
+
+.page-travel {
+}
+
+
+
+
+.page-content {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+
+
+p {
+  color: black;
+  padding: 15px;
+  margin: 10px;
+  font-family: Helvetica;
+}
+
+h1 {
+  background-color: blue;
+  margin: 20px;
+  padding: 20px;
+  padding: 60px;
+  background: url(images/bigsur.jpg);
+}
+
+#travel-main-head {
+  border: dashed;
+}
+
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a:link {
+  color:blue;
+}
+
+a:visited {
+  color: red;
+}
+
+#external-links ul {
+  list-style-type: none;
+  padding-left: 0px;
+  color: red;
+}
+
+
+
+
+/*Padding and border added to at least one element*/
+/*Margin added to at least one element*/
+/*At least one centered element (a footer message can be nice for this)*/
+/*A background image on at least one element*/
+/*A different font on at least one element*/
+
+/*A few elements styled using a class*/
+/*A different color for visited links*/
+/*An element styled with an ID*/
